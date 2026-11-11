@@ -15,6 +15,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <meta name="description" content="For small US medical practices and billing companies: denied claims sorted by reason, appeal letters drafted and every deadline tracked.">
 <link rel="icon" href="favicon.svg">
 <link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="variant.css">
 <script src="smoke.js" defer></script>
 <!-- faq-jsonld:start -->
 <script type="application/ld+json">
@@ -73,38 +77,68 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 
-<header><div class="wrap">
-  <div class="logo"><a href="index.html" data-ev="click_logo_home">Denial Desk</a></div>
-  <nav class="top"><a href="#what" data-ev="click_nav_what">What you get</a><a href="price.html" data-ev="click_nav_price">Price</a><a href="#example" data-ev="click_nav_example">Example</a><a href="#start" data-ev="click_nav_start">Start</a></nav>
+<header><div class="shell">
+  <a class="home" href="index.html" data-ev="click_logo_home">Denial Desk</a>
+  <nav><a href="#what" data-ev="click_nav_what">What you get</a><a href="price.html" data-ev="click_nav_price">Price</a><a href="#example" data-ev="click_nav_example">Example</a><a href="#start" data-ev="click_nav_start">Start</a></nav>
 </div></header>
 
-<div class="wrap">
-  <div class="hero">
-    <h1>Turn denied claims into appeal letters — without writing each one from scratch</h1>
-    <p class="sub">For small medical practices and medical billing companies in the US: upload the denial or the remittance advice, the denial reason is read and sorted, an appeal letter is drafted from the payer's reason and your documentation, and the appeal deadline is tracked until the claim is resolved.</p>
-    <a class="cta" href="price.html" data-ev="cta_click">I need this</a>
-    <p class="cta-note">Early access · No payment is taken on this page yet</p>
-  </div>
+<main class="shell">
+  <section class="split">
+    <div class="stack">
+      <p class="meta rise"><span class="dot"></span> For small medical practices and billing</p>
+      <h1 class="rise" style="--i:1" data-len="long">Turn denied claims into appeal letters&nbsp;<span class="soft">— without writing each one from scratch</span></h1>
+      <p class="rise" style="--i:2">For small medical practices and medical billing companies in the US: upload the denial or the remittance advice, the denial reason is read and sorted, an appeal letter is drafted from the payer's reason and your documentation, and the appeal deadline is tracked until the claim is resolved.</p>
+      <a class="button rise" style="--i:3" href="price.html" data-ev="cta_click">I need this</a>
+      <p class="meta rise" style="--i:4">Early access · No payment is taken on this page yet</p>
+    </div>
+    <figure class="window rise" style="--i:2"><svg aria-hidden="true" focusable="false" class="shot" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect width="1200" height="800" fill="#eef2f7" /><rect x="80" y="80" width="1040" height="640" rx="24" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="130" y="165" font-size="40" font-weight="600" fill="#0a1524">appeal letters</text><line x1="120" y1="210" x2="1080" y2="210" fill="none" stroke="#dde2ea" stroke-width="3" /><rect x="130" y="260" width="44" height="44" rx="8" fill="#dfe8f7" /><text x="200" y="292" font-size="32" fill="#0a1524">Denials sorted</text><rect x="130" y="350" width="44" height="44" rx="8" fill="#12397a" /><text x="200" y="382" font-size="32" fill="#0a1524">Appeal deadlines</text><rect x="130" y="450" width="300" height="22" rx="8" fill="#dde2ea" /><rect x="130" y="500" width="220" height="22" rx="8" fill="#b9c3d2" /><rect x="130" y="550" width="260" height="22" rx="8" fill="#dde2ea" /><rect x="700" y="260" width="370" height="400" rx="20" fill="#dfe8f7" /><text x="730" y="330" font-size="34" font-weight="600" fill="#0a1524">draft letter</text><rect x="750" y="450" width="50" height="170" rx="8" fill="#12397a" /><rect x="830" y="510" width="50" height="110" rx="8" fill="#ffffff" /><rect x="910" y="540" width="50" height="80" rx="8" fill="#b9c3d2" /><rect x="990" y="480" width="50" height="140" rx="8" fill="#ffffff" /></svg></figure>
+    <dl class="facts">
+      <div><dt>For</dt><dd>Small medical practices</dd></div>
+      <div><dt>Letters</dt><dd>Appeal letters</dd></div>
+      <div><dt>Upload</dt><dd>Upload the denial</dd></div>
+      <div><dt>Access</dt><dd>Early access</dd></div>
+    </dl>
+  </section>
 
   <section id="what" data-view="features_view">
-    <h2>What you get</h2>
-    <div class="grid">
-      <div class="card"><b>Denials sorted</b><span>Each denied claim sorted by payer and reason code, with the ones worth appealing first.</span><br><a class="btn" href="price.html" data-ev="feature_triage">I need this</a></div>
-      <div class="card"><b>Appeal letter drafted</b><span>A letter that answers the payer's stated reason with the documentation you attach.</span><br><a class="btn" href="price.html" data-ev="feature_letter">I need this</a></div>
-      <div class="card"><b>Appeal deadlines</b><span>The filing deadline of each appeal shown until it is sent.</span><br><a class="btn" href="price.html" data-ev="feature_deadlines">I need this</a></div>
-      <div class="card"><b>Status by claim</b><span>Sent, pending or overturned — every appeal in one list.</span><br><a class="btn" href="price.html" data-ev="feature_status">I need this</a></div>
+    <div class="stack"><h2>What you get</h2></div>
+    <div class="bento">
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="80" y="60" width="640" height="480" rx="22" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="120" y="140" font-size="34" font-weight="600" fill="#0a1524">Denials sorted</text><text x="120" y="190" font-size="30" fill="#566174">worth appealing</text><line x1="140" y1="470" x2="660" y2="470" fill="none" stroke="#dde2ea" stroke-width="3" /><rect x="160" y="390" width="70" height="80" rx="8" fill="#b9c3d2" /><rect x="280" y="330" width="70" height="140" rx="8" fill="#dde2ea" /><rect x="400" y="270" width="70" height="200" rx="8" fill="#12397a" /><rect x="520" y="370" width="70" height="100" rx="8" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /></svg></div>
+        <h3>Denials sorted</h3><p>Each denied claim sorted by payer and reason code, with the ones worth appealing first.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_triage">I need this</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="80" y="60" width="640" height="480" rx="22" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="120" y="140" font-size="34" font-weight="600" fill="#0a1524">Appeal letter drafted</text><rect x="140" y="190" width="340" height="280" rx="12" fill="#eef2f7" /><rect x="170" y="230" width="260" height="18" rx="8" fill="#dde2ea" /><rect x="170" y="270" width="200" height="18" rx="8" fill="#b9c3d2" /><rect x="170" y="310" width="240" height="18" rx="8" fill="#dde2ea" /><rect x="170" y="350" width="160" height="18" rx="8" fill="#b9c3d2" /><circle cx="560" cy="330" r="64" fill="#dfe8f7" /><polyline points="524,330 548,358 602,290" fill="none" stroke="#12397a" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" /><text x="170" y="430" font-size="30" fill="#566174">stated reason</text></svg></div>
+        <h3>Appeal letter drafted</h3><p>A letter that answers the payer's stated reason with the documentation you attach.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_letter">I need this</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="80" y="60" width="640" height="480" rx="22" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="120" y="130" font-size="34" font-weight="600" fill="#0a1524">Appeal deadlines</text><text x="120" y="185" font-size="30" fill="#566174">until it is sent</text><rect x="150" y="240" width="90" height="56" rx="8" fill="#dfe8f7" /><rect x="270" y="240" width="90" height="56" rx="8" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="390" y="240" width="90" height="56" rx="8" fill="#dfe8f7" /><rect x="510" y="240" width="90" height="56" rx="8" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="150" y="320" width="90" height="56" rx="8" fill="#dfe8f7" /><rect x="270" y="320" width="90" height="56" rx="8" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="390" y="320" width="90" height="56" rx="8" fill="#12397a" /><rect x="510" y="320" width="90" height="56" rx="8" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="150" y="400" width="90" height="56" rx="8" fill="#dfe8f7" /><rect x="270" y="400" width="90" height="56" rx="8" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="390" y="400" width="90" height="56" rx="8" fill="#dfe8f7" /><rect x="510" y="400" width="90" height="56" rx="8" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /></svg></div>
+        <h3>Appeal deadlines</h3><p>The filing deadline of each appeal shown until it is sent.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_deadlines">I need this</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="80" y="60" width="640" height="480" rx="22" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="120" y="140" font-size="34" font-weight="600" fill="#0a1524">Status by claim</text><text x="120" y="195" font-size="30" fill="#566174">one list</text><line x1="160" y1="340" x2="640" y2="340" fill="none" stroke="#dde2ea" stroke-width="4" /><rect x="140" y="300" width="150" height="80" rx="28" fill="#dfe8f7" /><rect x="320" y="300" width="150" height="80" rx="28" fill="#12397a" /><rect x="500" y="300" width="150" height="80" rx="28" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /></svg></div>
+        <h3>Status by claim</h3><p>Sent, pending or overturned — every appeal in one list.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_status">I need this</a>
+      </article>
     </div>
   </section>
 
-  <section id="example" data-view="example_view">
-    <h2>Example (fictional data)</h2>
-    <p class="fine">Two-physician practice, 41 denials in a month. The list shows 12 denials for missing prior authorization, 9 for medical necessity and 20 smaller ones. The biller opens a medical-necessity denial, the draft letter cites the payer's reason and points to the chart note, the biller edits two sentences and sends it.</p>
-    <a class="cta" href="price.html" data-ev="click_cta_after_example">Choose your plan</a>
+  <section id="example" data-view="example_view" class="split flip">
+    <div class="stack">
+      <h2>Example</h2>
+      <p>Two-physician practice, 41 denials in a month. The list shows 12 denials for missing prior authorization, 9 for medical necessity and 20 smaller ones. The biller opens a medical-necessity denial, the draft letter cites the payer's reason and points to the chart note, the biller edits two sentences and sends it.</p>
+    <a class="button" href="price.html" data-ev="click_cta_after_example">Choose your plan</a>
+    </div>
+<svg aria-hidden="true" focusable="false" class="shot reveal" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect width="1200" height="800" fill="#eef2f7" /><line x1="200" y1="160" x2="1000" y2="160" fill="none" stroke="#dde2ea" stroke-width="6" /><circle cx="240" cy="160" r="22" fill="#ffffff" stroke="#12397a" stroke-width="6" /><circle cx="600" cy="160" r="22" fill="#ffffff" stroke="#12397a" stroke-width="6" /><circle cx="960" cy="160" r="22" fill="#12397a" /><text x="240" y="250" font-size="32" font-weight="600" fill="#0a1524" text-anchor="middle">41 denials</text><text x="600" y="250" font-size="32" font-weight="600" fill="#0a1524" text-anchor="middle">chart note</text><text x="960" y="250" font-size="32" font-weight="600" fill="#0a1524" text-anchor="middle">draft letter</text><rect x="120" y="310" width="960" height="400" rx="24" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="170" y="400" font-size="36" font-weight="600" fill="#0a1524">medical necessity</text><text x="170" y="480" font-size="32" fill="#566174">prior authorization</text><rect x="170" y="560" width="180" height="24" rx="8" fill="#dde2ea" /><rect x="370" y="560" width="140" height="24" rx="8" fill="#b9c3d2" /><rect x="530" y="560" width="220" height="24" rx="8" fill="#dfe8f7" /></svg>
   </section>
 <!-- seo-tekst:start -->
-  <section id="opis">
-    <h2>How it works</h2>
-    <p>Every practice that bills insurance gets denied claims: a missing prior authorization, a coding mismatch, a question of medical necessity, a timely-filing issue. Each denial comes with a reason code on the remittance advice, and each one that is worth fighting needs an appeal letter sent before the payer's deadline.</p>
+  <section id="opis" class="split flip">
+    <div class="stack"><h2>How it works</h2></div>
+    <div class="stack">
+      <p>Every practice that bills insurance gets denied claims: a missing prior authorization, a coding mismatch, a question of medical necessity, a timely-filing issue. Each denial comes with a reason code on the remittance advice, and each one that is worth fighting needs an appeal letter sent before the payer's deadline.</p>
     <p>In a small practice or a small billing company, appeals are written by the same people who post payments and chase eligibility. Writing a letter means reading the denial, finding the right chart notes, looking up the payer's policy and wording an answer — so many smaller denials are never appealed, and the money stays with the payer.</p>
     <p>The service starts with the denials. You upload the denial letter or the remittance advice, and each denied claim is read: payer, date of service, procedure, amount and the reason given. The list is sorted by reason and by payer, so you can see at a glance which denials repeat and which are worth an appeal first.</p>
     <p>For each denial you choose to appeal, a letter is drafted that answers the payer's stated reason: what was denied, why the service met the payer's own criteria, and which documentation supports it. You attach the chart notes, the authorization or the corrected codes, review the letter, edit what you want and send it the way the payer accepts.</p>
@@ -113,31 +147,34 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <p>The service is built for independent practices and small billing companies that handle denials themselves. It works in the browser, nothing to install, and every account works under a Business Associate Agreement because the documents contain protected health information.</p>
     <p>Getting started takes one sitting: upload last month's denials, choose the first appeals to draft, and compare the letters with the ones you write today. Your team can work in the same account, each biller with their own claims.</p>
     <p>The service drafts letters for your review; it does not give legal or medical advice, and the practice remains responsible for every appeal it sends. It is in preparation: we are checking whether practices need it before it is built.</p>
+    </div>
   </section>
   <section id="faq">
-    <h2>Questions</h2>
-    <h3>Who is it for?</h3>
-    <p>Independent medical practices and small billing companies in the US that appeal denied claims themselves.</p>
-    <h3>Does it send appeals to the payer?</h3>
-    <p>No. It drafts the letter; you review it and send it the way the payer accepts.</p>
-    <h3>What do I upload?</h3>
-    <p>The denial letter or the remittance advice, and the documentation you want to attach.</p>
-    <h3>Is protected health information covered?</h3>
-    <p>Yes, every account works under a Business Associate Agreement.</p>
-    <h3>Can I use it already?</h3>
-    <p>Not yet. The service is in preparation, and we are checking whether practices need it.</p>
+    <div class="stack"><h2>Questions</h2></div>
+    <div class="rows">
+      <div class="split flip"><h3>Who is it for?</h3><p>Independent medical practices and small billing companies in the US that appeal denied claims themselves.</p></div>
+      <div class="split flip"><h3>Does it send appeals to the payer?</h3><p>No. It drafts the letter; you review it and send it the way the payer accepts.</p></div>
+      <div class="split flip"><h3>What do I upload?</h3><p>The denial letter or the remittance advice, and the documentation you want to attach.</p></div>
+      <div class="split flip"><h3>Is protected health information covered?</h3><p>Yes, every account works under a Business Associate Agreement.</p></div>
+      <div class="split flip"><h3>Can I use it already?</h3><p>Not yet. The service is in preparation, and we are checking whether practices need it.</p></div>
+    </div>
   </section>
 <!-- seo-tekst:end -->
-  <section id="start" data-view="start_view">
-    <h2>Upload your first denials</h2>
-    <p><label>Denied claims per month<br><select data-ev-focus="form_start" style="margin-top:6px;padding:8px;font-size:16px"><option value="">— please choose —</option><option>Up to 20</option><option>20–100</option><option>100–500</option><option>More than 500</option></select></label></p>
-    <a class="cta" href="price.html" data-ev="form_submit_click">Start</a>
+  <section id="start" data-view="start_view" class="split">
+    <div class="stack">
+      <h2>Upload your first denials</h2>
+    </div>
+    <div class="tile stack">
+      <label>Denied claims per month<select data-ev-focus="form_start"><option value="">— please choose —</option><option>Up to 20</option><option>20–100</option><option>100–500</option><option>More than 500</option></select></label>
+      <a class="button" href="price.html" data-ev="form_submit_click">Start</a>
+    </div>
   </section>
-</div>
+</main>
 
-<footer><div class="wrap">
+<footer><div class="shell">
+  <p><b>Denial Desk</b></p>
   <p><a href="privacy.html" data-ev="click_legal_privacy">Privacy</a></p>
-  <p class="muted">Appeal drafts for your review; no legal or medical advice. The practice remains responsible for every appeal it sends.</p>
+  <p>Appeal drafts for your review; no legal or medical advice. The practice remains responsible for every appeal it sends.</p>
 </div></footer>
 
 </body>
